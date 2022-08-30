@@ -1,0 +1,301 @@
+$cor-botao: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%);
+$second-background: #1C1E25;
+$background-input: #272A33;
+$spacement-landing: 100px;
+$small: 300px;
+$medium: 900px;
+
+body {
+  background: black !important;
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #FFEBF0;
+
+    span {
+      color: #ee00ff;
+    }
+  }
+
+  .card-creators {
+    img {
+      margin-left: 225px;
+      margin-top: -60px;
+    }
+  }
+
+  .transmission {
+    margin-top: 50px;
+    background-color: $second-background;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    height: 115px;
+    width: 75%;
+
+    img {
+      width: 40px;
+    }
+
+    h1 {
+      color: white;
+      font-size: 19px;
+      text-transform: capitalize;
+    }
+
+
+    h2 {
+      color: #F6DAE0;
+      font-weight: 300;
+      font-size: 14px;
+
+    }
+  }
+
+  .bg-selection {
+    background: #1C1E25;
+    border-radius: 19px;
+    padding: 30px;
+
+    input,
+    select {
+      background: $background-input;
+      border: none;
+      padding: 18px;
+      color: #797a7c;
+      border-radius: 15px;
+    }
+
+    button {
+      padding: 10px;
+    }
+
+    .privacity {
+      p {
+        color: #686868;
+        font-size: 12px;
+      }
+
+      span {
+        color: white;
+      }
+    }
+  }
+
+  .btn-subscribe {
+    background: $cor-botao  !important;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+  }
+
+  .tittle {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .space-paragraph {
+    margin-top: $spacement-landing;
+  }
+
+  .card-host {
+    background-color: $second-background;
+    padding: 80px 40px 0px 40px;
+    border-radius: 20px;
+    margin: 20px;
+
+    img {
+      border-radius: 50%;
+      position: absolute;
+      margin-top: -120px;
+    }
+
+    h1 {
+      font-size: 16px;
+
+      span {
+        color: #B19BF8;
+        font-weight: 500;
+        font-style: italic;
+      }
+    }
+
+    p {
+      color: #F6DAE0;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+  .inside-creators-part {
+    .color-paragraph {
+      color: #FFFFFF;
+      font-weight: 600;
+      font-size: 18px;
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    button {
+      padding: 10px 50px;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      border: none;
+    }
+  }
+
+  .investor {
+    p {
+      font-weight: 700;
+      font-size: 18px;
+      color: #FFFFFF;
+      opacity: 0.4;
+    }
+  }
+
+  footer {
+    border-top: 1px solid #1e1d1d;
+    padding: 0px 0px 20px 0px;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+
+    .list-terms{
+      color: white;
+      opacity: 0.6;
+      text-decoration: none;
+      text-align: center;
+      
+      a{
+        text-align: center;
+        font-weight: 500;
+      }
+
+      
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+
+      a:hover {
+        text-decoration: underline;
+        color: white;
+      }
+    }
+
+    ul {
+      li {
+        i {
+          font-size: 20px;
+          margin-left: 20px;
+          background: rgb(141, 141, 141);
+          padding: 16px;
+          border-radius: 50%;
+          color: white;
+          cursor: pointer;
+
+          &:hover {
+            opacity: .9;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media screen and (min-width: $small) and (max-width: $medium) {
+  body {
+    overflow-x: hidden;
+   .container{
+    overflow-x: hidden;
+   }
+
+    .insider {
+      .info-first {
+        margin-top: 230px;
+        margin-bottom: 200px;
+        text-align: center;
+      }
+
+      .insider-creator-img {
+        width: 300px;
+        position: absolute;
+        top: -120px;
+        left: -30px;
+      }
+    }
+
+    .card-creators {
+      img {
+        width: 500px;
+        margin-left: 60px;
+      }
+    }
+
+    .transmission {
+      width: 95vw !important;
+      height: 94px;
+    }
+  }
+
+  .hide {
+    opacity: 0;
+  }
+
+  .card-host {
+    margin-top: 50px !important;
+  }
+
+  .inside-creators-part {
+    .btn-subscribe{
+      display: block;
+      margin: 0px auto;
+    }
+    .tittle {
+      font-size: 26px;
+    }
+
+    br {
+      display: none;
+    }
+  }
+  .col-md-8 {
+    img {
+      display: block;
+      width: 400px;
+      margin-left: -45px;
+    }
+  }
+
+  .investor{
+    p{
+      text-align: center;
+    }
+  }
+  .footer{
+    img{
+      display: block;
+      margin: 0px auto;
+      margin-bottom: 60px;
+      width: 160px;
+    }
+   
+    .social-media{
+      ul{
+        display: block;
+        margin: 0px auto;
+        margin-top: -200px;
+
+      }
+    }
+  }
+ 
+}

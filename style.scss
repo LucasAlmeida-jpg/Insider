@@ -25,6 +25,10 @@ body {
     }
   }
 
+  .select {
+    max-width: 356px;
+  }
+
   .transmission {
     margin-top: 50px;
     background-color: $second-background;
@@ -158,6 +162,7 @@ body {
     }
   }
 
+
   footer {
     border-top: 1px solid #1e1d1d;
     padding: 0px 0px 20px 0px;
@@ -166,18 +171,29 @@ body {
     display: flex;
     align-items: center;
 
-    .list-terms{
+    .list-terms {
       color: white;
       opacity: 0.6;
       text-decoration: none;
       text-align: center;
-      
-      a{
+      margin-top: 40px;
+      margin-bottom: 40px;
+
+      a {
         text-align: center;
-        font-weight: 500;
+        font-weight: 600;
+        margin-left: -45px;
+        font-size: 13px;
+        color: #8B90A0;
       }
 
-      
+    }
+
+    h3 {
+      color: #E3E3E3;
+      position: absolute;
+      font-size: 14px;
+      margin-top: -43px;
     }
 
     a {
@@ -194,9 +210,9 @@ body {
       li {
         i {
           font-size: 20px;
-          margin-left: 20px;
+          margin-left: 1px;
           background: rgb(141, 141, 141);
-          padding: 16px;
+          padding: 11px;
           border-radius: 50%;
           color: white;
           cursor: pointer;
@@ -208,15 +224,21 @@ body {
       }
     }
 
+
+  }
+
+  .hide-desktop {
+    display: none;
   }
 }
 
 @media screen and (min-width: $small) and (max-width: $medium) {
   body {
     overflow-x: hidden;
-   .container{
-    overflow-x: hidden;
-   }
+
+    .container {
+      overflow-x: hidden;
+    }
 
     .insider {
       .info-first {
@@ -255,10 +277,11 @@ body {
   }
 
   .inside-creators-part {
-    .btn-subscribe{
+    .btn-subscribe {
       display: block;
       margin: 0px auto;
     }
+
     .tittle {
       font-size: 26px;
     }
@@ -267,6 +290,7 @@ body {
       display: none;
     }
   }
+
   .col-md-8 {
     img {
       display: block;
@@ -275,27 +299,54 @@ body {
     }
   }
 
-  .investor{
-    p{
+  .investor {
+    p {
       text-align: center;
     }
   }
-  .footer{
-    img{
+
+  .footer {
+    img {
       display: block;
       margin: 0px auto;
       margin-bottom: 60px;
       width: 160px;
     }
-   
-    .social-media{
-      ul{
+
+    h3 {
+      text-align: center;
+      position: relative;
+      margin-top: -102px;
+      margin-bottom: 60px;
+    }
+
+    .social-media {
+      ul {
         display: block;
         margin: 0px auto;
-        margin-top: -200px;
+        margin-top: -210px;
+      }
+    }
 
+    .list-terms {
+
+      a {
+        text-align: center;
+        margin: 0px;
+        font-size: 14px;
+      }
+
+    }
+
+    ul {
+      li {
+        i {
+          margin: 0px;
+        }
       }
     }
   }
- 
+
+
+
 }

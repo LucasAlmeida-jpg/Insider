@@ -56,10 +56,13 @@ body .bg-selection button {
 }
 body .bg-selection .privacity p {
   color: #686868;
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 18px;
 }
-body .bg-selection .privacity span {
+body .bg-selection .privacity span a {
   color: white;
+  font-weight: 600;
+  text-decoration: none;
 }
 body .btn-subscribe {
   background: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%) !important;
@@ -121,7 +124,7 @@ body .investor p {
   opacity: 0.4;
 }
 body footer {
-  border-top: 1px solid #1e1d1d;
+  border-top: 1px solid #3E465F;
   padding: 0px 0px 20px 0px;
   width: 100%;
   justify-content: space-around;
@@ -196,7 +199,7 @@ body .hide-desktop {
     margin-left: 60px;
   }
   body .transmission {
-    width: 95vw !important;
+    width: 94vw !important;
     height: 94px;
   }
   .hide {
@@ -232,13 +235,13 @@ body .hide-desktop {
   .footer h3 {
     text-align: center;
     position: relative;
-    margin-top: -102px;
+    margin-top: -100px;
     margin-bottom: 60px;
   }
   .footer .social-media ul {
     display: block;
     margin: 0px auto;
-    margin-top: -210px;
+    margin-top: -160px;
   }
   .footer .list-terms a {
     text-align: center;

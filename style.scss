@@ -10,7 +10,7 @@ body {
 
   h1 {
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 300;
     color: #FFEBF0;
 
     span {
@@ -20,7 +20,7 @@ body {
 
   .card-creators {
     img {
-      margin-left: 225px;
+      margin-left: 250px;
       margin-top: -60px;
     }
   }
@@ -43,7 +43,7 @@ body {
     }
 
     h1 {
-      color: white;
+      color: #FFFFFF;
       font-size: 19px;
       text-transform: capitalize;
     }
@@ -56,6 +56,30 @@ body {
     }
   }
 
+  .section-2{
+  
+    h3{
+      color: #9E00FF;
+      font-size: 60px;
+      font-weight: 200;
+      margin-bottom: 20px;
+    }
+    h1{
+      font-size: 2.5rem;
+      font-weight: 200;
+    }
+    h2{
+      color: #FFFFFF;
+      font-weight: 800;
+      letter-spacing: 1px;
+      font-size: 25px;
+    }
+  p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  }
   .bg-selection {
     background: #1C1E25;
     border-radius: 19px;
@@ -68,6 +92,7 @@ body {
       padding: 18px;
       color: #797a7c;
       border-radius: 15px;
+      font-weight: 700;
     }
 
     button {
@@ -96,6 +121,7 @@ body {
     border-radius: 30px;
     color: white;
     font-weight: 500;
+    border: none;
   }
 
   .tittle {
@@ -110,14 +136,17 @@ body {
 
   .card-host {
     background-color: $second-background;
-    padding: 80px 40px 0px 40px;
-    border-radius: 20px;
+    padding: 65px 25px 0px 25px;
+    border-radius: 20px !important;
     margin: 20px;
 
     img {
       border-radius: 50%;
       position: absolute;
       margin-top: -120px;
+      width: 100px;
+      height: auto;
+      object-fit: cover;
     }
 
     h1 {
@@ -159,11 +188,22 @@ body {
   }
 
   .investor {
+    .col{
+      display: flex;
+      justify-content: center;
+    }
+    
     p {
       font-weight: 700;
       font-size: 18px;
       color: #FFFFFF;
       opacity: 0.4;
+    }
+    img{
+      width: 120px;
+      height: auto;
+      text-align: center;
+      object-fit: cover;
     }
   }
 
@@ -236,6 +276,13 @@ body {
     display: none;
   }
 }
+.info-first{
+  h3{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
 
 @media screen and (min-width: $small) and (max-width: $medium) {
   body {
@@ -244,12 +291,16 @@ body {
     .container {
       overflow-x: hidden;
     }
+    .bg-selection {
+      margin-top: 110px;
+    }
 
     .insider {
       .info-first {
         margin-top: 230px;
         margin-bottom: 200px;
         text-align: center;
+
       }
 
       .insider-creator-img {
@@ -262,7 +313,9 @@ body {
 
     .card-creators {
       img {
-        width: 500px;
+        width: 540px;
+        height: auto;
+        object-fit: cover;
         margin-left: 60px;
       }
     }
@@ -270,6 +323,7 @@ body {
     .transmission {
       width: 94vw !important;
       height: 94px;
+      margin-top: 62px;
     }
   }
 
@@ -279,12 +333,14 @@ body {
 
   .card-host {
     margin-top: 50px !important;
+    
   }
 
   .inside-creators-part {
     .btn-subscribe {
       display: block;
       margin: 0px auto;
+      border: none !important;
     }
 
     .tittle {
@@ -308,13 +364,17 @@ body {
     p {
       text-align: center;
     }
+    img{
+      width: 80px !important;
+      display: flex;
+    }
+   
   }
 
   .footer {
-    img {
+    svg {
       display: block;
       margin: 0px auto;
-      margin-bottom: 60px;
       width: 160px;
     }
 
@@ -329,7 +389,7 @@ body {
       ul {
         display: block;
         margin: 0px auto;
-        margin-top: -160px;
+        margin-top: -65px;
       }
     }
 
@@ -352,6 +412,11 @@ body {
     }
   }
 
+  .section-2{
+    br{
+      display: none;
+    }
+  }
 
 
 }

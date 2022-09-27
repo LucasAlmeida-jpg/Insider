@@ -3,14 +3,14 @@ body {
 }
 body h1 {
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 300;
   color: #FFEBF0;
 }
 body h1 span {
   color: #ee00ff;
 }
 body .card-creators img {
-  margin-left: 225px;
+  margin-left: 250px;
   margin-top: -60px;
 }
 body .select {
@@ -29,7 +29,7 @@ body .transmission img {
   width: 40px;
 }
 body .transmission h1 {
-  color: white;
+  color: #FFFFFF;
   font-size: 19px;
   text-transform: capitalize;
 }
@@ -37,6 +37,27 @@ body .transmission h2 {
   color: #F6DAE0;
   font-weight: 300;
   font-size: 14px;
+}
+body .section-2 h3 {
+  color: #9E00FF;
+  font-size: 60px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+body .section-2 h1 {
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+body .section-2 h2 {
+  color: #FFFFFF;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+body .section-2 p {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
 }
 body .bg-selection {
   background: #1C1E25;
@@ -50,6 +71,7 @@ body .bg-selection select {
   padding: 18px;
   color: #797a7c;
   border-radius: 15px;
+  font-weight: 700;
 }
 body .bg-selection button {
   padding: 10px;
@@ -69,6 +91,7 @@ body .btn-subscribe {
   border-radius: 30px;
   color: white;
   font-weight: 500;
+  border: none;
 }
 body .tittle {
   color: white;
@@ -80,14 +103,17 @@ body .space-paragraph {
 }
 body .card-host {
   background-color: #1C1E25;
-  padding: 80px 40px 0px 40px;
-  border-radius: 20px;
+  padding: 65px 25px 0px 25px;
+  border-radius: 20px !important;
   margin: 20px;
 }
 body .card-host img {
   border-radius: 50%;
   position: absolute;
   margin-top: -120px;
+  width: 100px;
+  height: auto;
+  object-fit: cover;
 }
 body .card-host h1 {
   font-size: 16px;
@@ -117,11 +143,21 @@ body .inside-creators-part a {
   color: white;
   border: none;
 }
+body .investor .col {
+  display: flex;
+  justify-content: center;
+}
 body .investor p {
   font-weight: 700;
   font-size: 18px;
   color: #FFFFFF;
   opacity: 0.4;
+}
+body .investor img {
+  width: 120px;
+  height: auto;
+  text-align: center;
+  object-fit: cover;
 }
 body footer {
   border-top: 1px solid #3E465F;
@@ -176,12 +212,21 @@ body .hide-desktop {
   display: none;
 }
 
+.info-first h3 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 @media screen and (min-width: 300px) and (max-width: 900px) {
   body {
     overflow-x: hidden;
   }
   body .container {
     overflow-x: hidden;
+  }
+  body .bg-selection {
+    margin-top: 110px;
   }
   body .insider .info-first {
     margin-top: 230px;
@@ -195,12 +240,15 @@ body .hide-desktop {
     left: -30px;
   }
   body .card-creators img {
-    width: 500px;
+    width: 540px;
+    height: auto;
+    object-fit: cover;
     margin-left: 60px;
   }
   body .transmission {
     width: 94vw !important;
     height: 94px;
+    margin-top: 62px;
   }
   .hide {
     opacity: 0;
@@ -211,6 +259,7 @@ body .hide-desktop {
   .inside-creators-part .btn-subscribe {
     display: block;
     margin: 0px auto;
+    border: none !important;
   }
   .inside-creators-part .tittle {
     font-size: 26px;
@@ -226,10 +275,13 @@ body .hide-desktop {
   .investor p {
     text-align: center;
   }
-  .footer img {
+  .investor img {
+    width: 80px !important;
+    display: flex;
+  }
+  .footer svg {
     display: block;
     margin: 0px auto;
-    margin-bottom: 60px;
     width: 160px;
   }
   .footer h3 {
@@ -241,7 +293,7 @@ body .hide-desktop {
   .footer .social-media ul {
     display: block;
     margin: 0px auto;
-    margin-top: -160px;
+    margin-top: -65px;
   }
   .footer .list-terms a {
     text-align: center;
@@ -250,6 +302,9 @@ body .hide-desktop {
   }
   .footer ul li i {
     margin: 0px;
+  }
+  .section-2 br {
+    display: none;
   }
 }
 

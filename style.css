@@ -32,6 +32,7 @@ body .transmission h1 {
   color: #FFFFFF;
   font-size: 19px;
   text-transform: capitalize;
+  font-weight: 600;
 }
 body .transmission h2 {
   color: #F6DAE0;
@@ -107,6 +108,10 @@ body .card-host {
   border-radius: 20px !important;
   margin: 20px;
 }
+body .card-host a {
+  text-decoration: none;
+  color: #F6DAE0;
+}
 body .card-host img {
   border-radius: 50%;
   position: absolute;
@@ -117,6 +122,7 @@ body .card-host img {
 }
 body .card-host h1 {
   font-size: 16px;
+  font-weight: 700;
 }
 body .card-host h1 span {
   color: #B19BF8;

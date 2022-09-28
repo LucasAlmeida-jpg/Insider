@@ -167,7 +167,6 @@ body .investor img {
 }
 body footer {
   border-top: 1px solid #3E465F;
-  padding: 0px 0px 20px 0px;
   width: 100%;
   justify-content: space-around;
   display: flex;
@@ -204,9 +203,8 @@ body footer a a:hover {
 }
 body footer ul li i {
   font-size: 20px;
-  margin-left: 1px;
   background: rgb(141, 141, 141);
-  padding: 11px;
+  padding: 14px 14px;
   border-radius: 50%;
   color: white;
   cursor: pointer;
@@ -262,7 +260,12 @@ body .hide-desktop {
   .card-host {
     margin-top: 50px !important;
   }
+  .inside-creators-part .color-paragraph {
+    margin-bottom: 30px;
+  }
   .inside-creators-part .btn-subscribe {
+    padding: 12px 70px;
+    font-size: 17px;
     display: block;
     margin: 0px auto;
     border: none !important;
@@ -277,6 +280,7 @@ body .hide-desktop {
     display: block;
     width: 400px;
     margin-left: -45px;
+    margin-top: 30px;
   }
   .investor p {
     text-align: center;
@@ -288,16 +292,21 @@ body .hide-desktop {
   .influ-title {
     font-size: 40px !important;
   }
+  .footer {
+    overflow-y: hidden;
+  }
   .footer svg {
     display: block;
     margin: 0px auto;
     width: 160px;
+    margin-top: -35px;
   }
   .footer h3 {
     text-align: center;
     position: relative;
     margin-top: -100px;
     margin-bottom: 60px;
+    overflow: hidden !important;
   }
   .footer .social-media ul {
     display: block;
@@ -314,6 +323,10 @@ body .hide-desktop {
   }
   .section-2 br {
     display: none;
+  }
+  .social-media {
+    margin-top: -24px !important;
+    padding-bottom: 20px;
   }
 }
 

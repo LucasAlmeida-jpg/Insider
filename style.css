@@ -230,12 +230,12 @@ body .hide-desktop {
     overflow-x: hidden;
   }
   body .bg-selection {
-    position: relative;
+    position: relative !important;
     margin-top: 50px;
+    z-index: 1 !important;
   }
   body .insider .info-first {
     margin-top: 230px;
-    margin-bottom: 200px;
     text-align: center;
   }
   body .insider .insider-creator-img {

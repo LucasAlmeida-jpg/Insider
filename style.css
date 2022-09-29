@@ -328,6 +328,9 @@ body .hide-desktop {
     margin-top: -24px !important;
     padding-bottom: 20px;
   }
+  .bg-selection {
+    position: relative;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

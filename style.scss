@@ -18,7 +18,7 @@ body {
     }
   }
 
-  
+
   .card-creators {
     img {
       margin-left: 250px;
@@ -227,7 +227,7 @@ body {
     justify-content: space-around;
     display: flex;
     align-items: center;
-   
+
     .list-terms {
       color: white;
       opacity: 0.6;
@@ -301,12 +301,13 @@ body {
   body {
     overflow-x: hidden;
 
-    
+
     .container {
       overflow-x: hidden;
     }
 
     .bg-selection {
+      position: relative;
       margin-top: 50px;
     }
 
@@ -352,9 +353,10 @@ body {
   }
 
   .inside-creators-part {
-    .color-paragraph{
+    .color-paragraph {
       margin-bottom: 30px;
     }
+
     .btn-subscribe {
       padding: 12px 70px;
       font-size: 17px;
@@ -393,11 +395,13 @@ body {
 
   }
 
-  .influ-title{
+  .influ-title {
     font-size: 40px !important;
   }
+
   .footer {
     overflow-y: hidden;
+
     svg {
       display: block;
       margin: 0px auto;
@@ -445,13 +449,11 @@ body {
       display: none;
     }
   }
-.social-media{
-  margin-top: -24px !important;
-  padding-bottom: 20px
-}
 
-.bg-selection {
-  position: relative;
-}
+  .social-media {
+    margin-top: -24px !important;
+    padding-bottom: 20px
+  }
+
 
 }

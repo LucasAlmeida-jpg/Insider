@@ -230,6 +230,7 @@ body .hide-desktop {
     overflow-x: hidden;
   }
   body .bg-selection {
+    position: relative;
     margin-top: 50px;
   }
   body .insider .info-first {
@@ -327,9 +328,6 @@ body .hide-desktop {
   .social-media {
     margin-top: -24px !important;
     padding-bottom: 20px;
-  }
-  .bg-selection {
-    position: relative;
   }
 }
 

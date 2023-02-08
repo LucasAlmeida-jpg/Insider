@@ -4,6 +4,7 @@ $background-input: #272A33;
 $spacement-landing: 100px;
 $small: 300px;
 $medium: 900px;
+// css/style.scss:css/style.css --watch
 
 body {
   background: black !important;
@@ -91,14 +92,26 @@ body {
     border-radius: 19px;
     padding: 30px;
 
-    input,
-    select {
+    :focus {
+      color: white;
+      background: $background-input;
+    }
+
+    select,
+    input {
       background: $background-input;
       border: none;
       padding: 18px;
-      color: #797a7c;
+      color: white;
       border-radius: 15px;
-      font-weight: 700;
+      font-weight: 600;
+      font-size: 18px;
+
+    }
+
+    ::placeholder {
+      color: white;
+      opacity: 0.9;
     }
 
     button {
@@ -123,7 +136,7 @@ body {
   }
 
   .btn-subscribe {
-    background: $cor-botao  !important;
+    background: $cor-botao !important;
     border-radius: 30px;
     color: white;
     font-weight: 500;

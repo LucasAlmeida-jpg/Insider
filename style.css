@@ -65,14 +65,23 @@ body .bg-selection {
   border-radius: 19px;
   padding: 30px;
 }
-body .bg-selection input,
-body .bg-selection select {
+body .bg-selection :focus {
+  color: white;
+  background: #272A33;
+}
+body .bg-selection select,
+body .bg-selection input {
   background: #272A33;
   border: none;
   padding: 18px;
-  color: #797a7c;
+  color: white;
   border-radius: 15px;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 18px;
+}
+body .bg-selection ::placeholder {
+  color: white;
+  opacity: 0.9;
 }
 body .bg-selection button {
   padding: 10px;

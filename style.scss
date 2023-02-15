@@ -93,25 +93,38 @@ body {
     padding: 30px;
 
     :focus {
-      color: white;
-      background: $background-input;
+      color: #3E465F;
+      background: #fff;
+    }
+
+    input{
+
+      &::placeholder{
+          color: #5C688D;
+          font-size: 16px;
+      }
+
+      &:focus{
+          background: #fff;
+          color: #3E465F;
+      }
     }
 
     select,
     input {
       background: $background-input;
       border: none;
-      padding: 18px;
-      color: white;
+      padding: 15px 20px;
+      color: #5C688D;
       border-radius: 15px;
       font-weight: 600;
       font-size: 16px;
 
     }
 
-    ::placeholder {
-      color: white;
-      opacity: 0.9;
+    &::placeholder{
+      color: #5C688D;
+      font-size: 16px;
     }
 
     button {
@@ -120,14 +133,14 @@ body {
 
     .privacity {
       p {
-        color: #686868;
-        font-size: 14px;
+        color: #fff;
+        font-size: 16px;
         line-height: 18px;
       }
 
       span {
         a {
-          color: white;
+          color: #5C688D;
           font-weight: 600;
           text-decoration: none;
         }
